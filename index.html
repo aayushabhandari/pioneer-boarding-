@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Players</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="navbar">
+        <h1>🌟 Sports Players</h1>
+        <nav>
+            <button onclick="showSection('soccer')">Soccer</button>
+            <button onclick="showSection('volleyball')">Volleyball</button>
+            <button onclick="showSection('football')">Football</button>
+            <button onclick="showSection('badminton')">Badminton</button>
+        </nav>
+    </header>
+
+    <!-- Player Lists -->
+    <main class="container">
+
+        <section id="soccer" class="sport-section active">
+            <h2>⚽ Soccer Players</h2>
+            <ul>
+                <li>Lionel Messi</li>
+                <li>Cristiano Ronaldo</li>
+                <li>Neymar Jr.</li>
+                <li>Alex Morgan</li>
+            </ul>
+        </section>
+
+        <section id="volleyball" class="sport-section">
+            <h2>🏐 Volleyball Players</h2>
+            <ul>
+                <li>Karch Kiraly</li>
+                <li>Giba</li>
+                <li>Misty May-Treanor</li>
+                <li>Sara Hughes</li>
+            </ul>
+        </section>
+
+        <section id="football" class="sport-section">
+            <h2>🏈 Football Players</h2>
+            <ul>
+                <li>Tom Brady</li>
+                <li>Patrick Mahomes</li>
+                <li>Derrick Henry</li>
+                <li>T.J. Watt</li>
+            </ul>
+        </section>
+
+        <section id="badminton" class="sport-section">
+            <h2>🏸 Badminton Players</h2>
+            <ul>
+                <li>Ling Dai Yuan</li>
+                <li>Lin Dan</li>
+                <li>PV Sindhu</li>
+                <li>Chen Long</li>
+            </ul>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
